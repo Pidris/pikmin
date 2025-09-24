@@ -246,10 +246,10 @@ public:
 	int _934;                            // _934
 	Vector3f _938[32];                   // _938
 	f32 _AB8;                            // _AB8
-	int _ABC;                            // _ABC
+	int mWhistleState;                   // _ABC, 0 is not whistling, 1 is partial whistle, 2 is full whistle
 	f32 _AC0;                            // _AC0
 	f32 _AC4;                            // _AC4
-	f32 _AC8;                            // _AC8
+	f32 mWhistleSize;                    // _AC8
 	bool _ACC;                           // _ACC
 	CollTriInfo* _AD0;                   // _AD0
 	u8 _AD4[0x4];                        // _AD4, unknown
